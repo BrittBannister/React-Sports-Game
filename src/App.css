@@ -1,0 +1,65 @@
+root {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Special Elite', cursive;
+    background-color: #efd6ac;
+    color: #04151f;
+}
+
+button {
+    display: block;
+    background-color: #c44900;
+    border: 1px solid black;
+    border-radius: 30%;
+    text-transform: uppercase;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-image: url('./images/KA.jpeg')
+}
+
+.game {
+    text-align: center;
+}
+
+.team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 400px;
+    color: #183a37;
+    font-weight: bold;
+}
+
+.team .logo {
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-image: url('./images/KA.jpeg'); */
+}
+
+.statsForTeam {
+    display: flex;
+    border: 10px solid #432534;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.versus {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Monoton', cursive;
+    font-size: 35px;
+    color: #183a37;
+    font-weight: bold;
+}
